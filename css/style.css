@@ -225,94 +225,6 @@ header {
   z-index: 4;
 }
 
-.services {
-  background: url(../media/services.jpg) no-repeat center center;
-  min-height: 920px;
-  background-size: cover;
-}
-
-.services .row {
-  margin: 0;
-}
-
-#services-p {
-  font-size: 24px;
-  display: block;
-  line-height: 37px;
-  color: #a8a8a8;
-  font-weight: 100;
-  text-align: center;
-}
-
-.sect-wrapper {
-  width: 100%;
-}
-
-.sect {
-  display: inherit;
-  padding: 0;
-}
-
-.sect-arrow {
-  height: 130px;
-  width: 25%;
-  text-align: center;
-  padding-top: 3em;
-}
-
-.sect-arrow i {
-  font-size: 25px;
-  color: #9a417c;
-}
-
-.sect-text {
-  height: 130px;
-  width: 75%;
-  padding: 20px 0 0 20px;
-}
-
-.sect-text h5 {
-  color: #eaafd6;
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.sect-text p {
-  color: #c39fb7;
-  font-weight: 100;
-  font-size: 90%;
-}
-
-.sa1 {
-  background-color: #802c64;
-}
-
-.st1 {
-  font-size: 85%;
-  background-color: #7a225d;
-  overflow: auto;
-}
-
-.sa2 {
-  background-color: #500c50;
-}
-
-.st2 {
-  font-size: 90%;
-  background-color: #480048;
-  overflow: auto;
-}
-
-.sa3 {
-  background-color: #3a0c3a;
-}
-
-.st3 {
-  font-size: 90%;
-  background-color: #300030;
-  overflow: auto;
-}
-
 .nextstep-text h2 {
   color: #404040;
   font-weight: bold;
@@ -341,6 +253,7 @@ header {
   width: 820px;
   height: 590px;
   margin: 3em auto 0;
+  opacity: 0.8;
 }
 
 #form {
@@ -355,8 +268,7 @@ header {
   border: none;
   border-bottom: 1px solid #ebebeb;
   line-height: 40px;
-  color: #8e8e8e;
-  font-weight: 300;
+  color: #000;
   display: block;
   outline: 0 none;
 }
@@ -464,7 +376,7 @@ footer {
 
 @media screen and (max-width: 638px){
   header, .header-alt {
-    padding: .5em;
+    padding: 0 .5em;
   }
   
   navbar {
