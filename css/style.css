@@ -73,7 +73,7 @@ header {
 .banner {
   display: block;
   height: 1000px;
-  background: url(../media/officebg.jpg) no-repeat center center;
+  background: url(../media/bg.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -97,7 +97,7 @@ header {
 }
 
 .scroll-wrap {
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -111,12 +111,7 @@ header {
 }
 
 .mouse-line {
-  position: absolute;
-  left: 50%;
-  width: 1px;
-  height: 10px;
-  margin-top: 10px;
-  background: #000;
+  font-size: 50px;
 }
 
 .info {
@@ -164,11 +159,11 @@ header {
 }
 
 
-#circle-meeting {
+#circle-download {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color: rgba(241, 117, 123, .9);
+  background-color: rgba(244, 207, 103, .9);
   text-align: center;
   line-height: 200px;
   color: #fff;
@@ -177,11 +172,11 @@ header {
   z-index: 3;
 }
 
-#circle-planning {
+#circle-choose {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  background-color: rgba(119, 207, 199, .9);
+  background-color: rgba(214, 163, 107, .9);
   text-align: center;
   color: #fff;
   margin-left: -15px;
@@ -191,11 +186,11 @@ header {
   z-index: 2;
 }
 
-#circle-execute {
+#circle-enjoy {
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  background-color: rgba(109, 213, 237, .9);
+  background-color: rgba(113, 193, 216, .9);
   text-align: center;
   line-height: 350px;
   color: #fff;
@@ -205,11 +200,11 @@ header {
   z-index: 1;
 }
 
-#circle-deliver {
+#circle-assess {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: rgba(246, 206, 66, .9);
+  background-color: rgba(166, 195, 69, .9);
   text-align: center;
   line-height: 150px;
   color: #fff;
@@ -218,9 +213,9 @@ header {
   margin-top: 115px;
 }
 
-#circle-meeting:hover, #circle-planning:hover,
-#circle-execute:hover, #circle-deliver:hover {
-  background-color: #802c64;
+#circle-download:hover, #circle-choose:hover,
+#circle-enjoy:hover, #circle-assess:hover {
+  background-color: #0d2432;
   transition: all 0.4s ease;
   z-index: 4;
 }
@@ -238,7 +233,7 @@ header {
 }
 
 .nextstep {
-  background: url(../media/nextstep.jpg) no-repeat center center;
+  background: url(../media/form.jpg) no-repeat center center;
   min-height: 920px;
   background-size: cover;
 }
@@ -325,7 +320,7 @@ footer {
 /* Media Queries: */
 @media screen and (max-width: 992px){
 
- #circle-meeting {
+ #circle-download {
     height: 80px;
     width: 80px;
     line-height: 80px;
@@ -333,7 +328,7 @@ footer {
     margin-top: 30px;
   }
   
-  #circle-planning {
+  #circle-choose {
     height: 115px;
     width: 115px;
     font-size: 11px;
@@ -341,7 +336,7 @@ footer {
     line-height: 115px;
   }
   
-  #circle-execute {
+  #circle-enjoy {
     height: 115px;
     width: 115px;
     line-height: 115px;
@@ -350,7 +345,7 @@ footer {
     margin-left: -20px;
   }
 
-  #circle-deliver {
+  #circle-assess {
     height: 80px;
     width: 80px;
     line-height: 80px;

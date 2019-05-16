@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Gabriel Coronado">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="./media/favicon.ico" type="image/x-icon"/>
@@ -37,10 +37,10 @@
               <h2 class="red-text">RUN TEACH</h2>
               <p>¿Necesitas reforzar temas académicos con gente especializada? Necesitas un RunTeacher.</p>
               <div class="scroll-wrap">
-                <span class="scroll">
-                  <span class="mouse-line"></span>
-                </span>
-                <p>SCROLL</p>
+                <a style="color: #000; text-decoration:none;" href="https://drive.google.com/file/d/1SMawVm6Nv0V4N5Ami7Zc8WgchbZCeF3m/view?usp=sharing">
+                  <i class="mouse-line fab fa-google-play"></i>
+                  <p>¡Descárgala ya!</p>
+                </a>
               </div>
             </div>
           </div>
@@ -51,14 +51,14 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div style="display: inline;">
-            <img src="./media/mountains.jpg" alt="mountains-img" style="width: 100%; height: 100%;">
+            <img src="./media/pics.jpg" alt="screenshots-img" style="width: 100%; height: 100%;">
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
           <div class="m-4">
             <div class="text-left">
-              <h2>Run Teach App</h2>
-              <div class="divider-horizontal"></div>
+              <h2 class="text-center">Run Teach App</h2>
+              <br /><br />
               <p>La app de Run Teach es sencilla de usar. Conéctate instantáneamente con de nuestros tutores usando simplemente tu teléfono.</p>
               <div class="divider-horizontal" style="width: 95%; height: 1px;"></div>
               <div id="" class="">
@@ -86,10 +86,10 @@
         </div>
         <div class="row" style="justify-content: center;">
           <div id="circles">
-            <div id="circle-meeting">DESCARGA</div>
-            <div id="circle-planning">SELECCIONA</div>
-            <div id="circle-execute">DISFRUTA</div>
-            <div id="circle-deliver">EVALÚA</div>
+            <div id="circle-download">DESCARGA</div>
+            <div id="circle-choose">SELECCIONA</div>
+            <div id="circle-enjoy">DISFRUTA</div>
+            <div id="circle-assess">EVALÚA</div>
           </div>
         </div>
         <div class="row text-left"  id="cols-text">
@@ -103,7 +103,7 @@
           </div>
           <div class="col-lg-3 col-md-3 col-sm-6">
             <h4>DISFRUTA</h4>
-            <p>Disfruta, admira, aprovecha, y recibe todo el conocimiento que te será transferido e inspirado por tu RunTeacher.</p>
+            <p>Disfruta, aprovecha, y recibe todo el conocimiento que te será transferido e inspirado por tu RunTeacher.</p>
           </div>
           <div class="col-lg-3 col-md-3 col-sm-6">
             <h4>EVALÚA</h4>
@@ -119,13 +119,13 @@
           <div class="divider-horizontal" style="display: inline-block;"></div>
           <p>¿Necesitas ayuda y/o tienes un comentario adicional? Déjanos saber cómo podemos ayudarte.</p>
           <div id="form-wrapper">
-            <div id="form">
-              <input type="text" placeholder="Nombre"/>
-              <input type="email" placeholder="Email"/>
-              <input type="number" placeholder="Teléfono"/>
-              <textarea rows="1" placeholder="Mensaje"></textarea>
+            <form id="form" action="https://formspree.io/gcoronad2@cuc.edu.co" method="POST" >
+              <input type="text" name="nombre" placeholder="Nombre*" required />
+              <input type="email" name="email" placeholder="Email*" required />
+              <input type="number" name="phone" placeholder="Teléfono"/>
+              <textarea rows="1" name="mensaje" placeholder="Mensaje*" required></textarea>
               <input type="submit" value="ENVIAR">
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
               <p>&copy; Run Teach</p>
               <p>Universidad de la Costa</p>
               <p>Barranquilla, Colombia</p>
-              <p><strong>Phone:</strong> 1234 - 567 - 890</p>
+              <p><strong>Teléfono:</strong> 1234 - 567 - 890</p>
             </div>
             <div id="author">
               <p>Designed by <strong class="red-text">Los Fils</strong></p>
